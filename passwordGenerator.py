@@ -3,10 +3,10 @@ import random
 
 
 def generate_password(password_length):
-    use_lower = input("Do you use lowercase letters? (y/n) ").strip().lower() == "Y"
-    use_upper = input("Do you use uppercase letters? (y/n) ").strip().lower() == "Y"
-    use_digits = input("Do you use digits? (y/n) ").strip().lower() == "Y"
-    use_symbols = input("Do you use symbols? (y/n) ").strip().lower() == "Y"
+    use_lower = input("Do you use lowercase letters? (y/n) ").strip().lower() == "y"
+    use_upper = input("Do you use uppercase letters? (y/n) ").strip().lower() == "y"
+    use_digits = input("Do you use digits? (y/n) ").strip().lower() == "y"
+    use_symbols = input("Do you use symbols? (y/n) ").strip().lower() == "y"
 
     characters = ""
     if use_lower:
